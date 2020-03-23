@@ -12,6 +12,9 @@ var app = express();
 console.log("Hello World");
 
 /** 2) A first working Express Server */
+function(req, res){
+	app.get('Hello Express');
+}
 
 
 /** 3) Serve an HTML file */
