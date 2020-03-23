@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 /** 4) Serve static assets  */
-
+app.use(__dirname + "/public/style.css", express.static());
 
 /** 5) serve JSON on a specific route */
 
